@@ -1,0 +1,33 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(255, 233, 31);
+  overflow: hidden;
+}
+.circle {
+  width: 650px;
+  height: 650px;
+  background-image: url("baraban.png");
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+  margin-top: -20px;
+
+  transition: 5s;
+  transition-timing-function: ease-in-out;
+}
+
+.arrow {
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 10px;
+}
+p {
+  -ms-user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+}
